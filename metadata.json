@@ -1,0 +1,6 @@
+{
+  "name": "Chronos Widgets",
+  "description": "Unique real-time date, time, and weather widget app with customizable themes and live home screen widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

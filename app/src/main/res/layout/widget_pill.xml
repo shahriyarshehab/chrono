@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_pill_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_pill"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/widget_pill_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:30"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/widget_pill_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="•"
+        android:textColor="#546E7A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/widget_pill_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mon, Oct 12"
+        android:textSize="13sp"
+        android:textColor="#CFD8DC"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/widget_pill_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☀️ 72°"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFD54F" />
+</LinearLayout>

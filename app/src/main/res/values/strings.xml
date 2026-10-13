@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chronos Widgets</string>
+    <string name="widget_description">Aura Date, Time &amp; Weather Widget</string>
+    <string name="widget_compact_description">Chronos Compact Weather &amp; Time Pill</string>
+    <string name="widget_square_description">Chronos Square Dial &amp; Forecast</string>
+    <string name="error_loading_weather">Unable to load live weather. Showing cached data.</string>
+</resources>
